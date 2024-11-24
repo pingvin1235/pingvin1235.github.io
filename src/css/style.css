@@ -1,0 +1,60 @@
+#mainCharacter{
+    position: absolute;
+    top:500px;
+    width:216px;
+    height:99px;
+    background-image: url(/src/images/helicopterGG.png);
+}
+.firstLvlNotStart{
+    width:98%;
+    height:98%;
+    background-image: url(/src/images/bgBlind.png);
+}
+.firstLvlStart{
+    width:98%;
+    height:98%;
+    background-image: url(/src/images/bg.png);
+    z-index: -10;
+}
+
+#startButton{
+    position: absolute;
+    top:52%;
+    left:44%;
+    width:134px;
+    height:79px;
+    background-image: url(/src/images/playButton.png);
+}
+
+#startButton:hover{
+    background-image: url(/src/images/playButton2.png);
+}
+
+#logo{position: absolute;
+    left: 25%;
+    width:688px;
+    height:335px;
+    background-image: url(/src/images/logo.png);
+}
+
+.coat{
+    width:243px;
+    height:94px;
+    background-image: url(/src/images/coat.png);
+    z-index: 2;
+}
+#coat1{
+    position:absolute;
+    left:800px;
+    top:100px;
+}
+#coat2{
+    position:absolute;
+    left: 350px;
+    top:500px;
+}
+#coat3{
+    position:absolute;
+    left: 950px;
+    top:625px;
+}
